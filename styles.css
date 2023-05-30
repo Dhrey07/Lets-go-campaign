@@ -141,6 +141,7 @@ img[src*="line.svg"]{
 }
 
 .Us{
+    
     padding-inline: 2%;
     margin: auto;
     align-items: flex-end;
@@ -217,7 +218,7 @@ img[src*="youth"]
 }
 .tc{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: center;
     gap: 6.9rem;
     align-items: center;
 }
@@ -279,11 +280,13 @@ img[src*="youth"]
 }
 .mission{
     display: flex;
+    justify-content: center;
     gap: 37px;
     margin-bottom: 60px;
 }
 .mission-info {
-    max-width: 560px;
+    max-width: 550px;
+    margin-top: 45px;
 }
 .mission-info h2{
     margin-bottom: 1rem;
@@ -309,6 +312,7 @@ img[src*="youth"]
 }
 .news-row{
     display: flex;
+    justify-content: center;
     gap: 35px;
 }
 .fourth-container button{
