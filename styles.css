@@ -58,7 +58,7 @@ button{
 /* HEADER */
 /* PRELOADER */
 #preloader{
-    background: #ffffff url(images/preloader2.gif) no-repeat center center;
+    background: #fbfafa url(images/preloader.gif) no-repeat center center;
     height: 100vh;
     background-size: 20%;
     width: 100%;
@@ -71,14 +71,14 @@ button{
     /* text-align: center; */
     /* color: #650F0E; */
     height: 50px;
-    padding-top: 25%;
+    padding-top: 20%;
     margin: auto;
     /* font-size: 2rem; */
 }
 
 /* FIRST CONTAINER */
 .first{
-    background-image: url(images/cont1.svg) ;
+    background-image: url(images/sec1-bck.png) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -159,7 +159,6 @@ img[src*="line.svg"]{
 }
 
 .Us{
-    
     padding-inline: 2%;
     margin: auto;
     align-items: flex-end;
@@ -215,7 +214,7 @@ img[src*="youth"]
 
 /* THIRD CONTAINER */
 .third{
-    background-image: url(images/3bck.svg) ;
+    background-image: url(images/sec3-bck.png) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -235,6 +234,7 @@ img[src*="youth"]
     max-width: 400px;
 }
 .tc{
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     gap: 6.9rem;
@@ -298,13 +298,14 @@ img[src*="youth"]
 }
 .mission{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 37px;
     margin-bottom: 60px;
 }
 .mission-info {
     max-width: 550px;
-    margin-top: 45px;
+    margin-top: 62px;
 }
 .mission-info h2{
     margin-bottom: 1rem;
@@ -331,6 +332,7 @@ img[src*="youth"]
 .news-row{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 35px;
 }
 .fourth-container button{
@@ -351,7 +353,7 @@ img[src*="youth"]
     padding-block: 160px;
 }
 .fifth-top{
-    width: 400px;
+    max-width: 400px;
     display: block;
     margin: auto;
 }
@@ -360,6 +362,7 @@ img[src*="youth"]
 }
 .tech-portfolio{
     display: flex;
+    flex-wrap: wrap;
     gap: 1.75rem;
     justify-content: center;
 }
@@ -440,4 +443,156 @@ footer{
     color: #CBD5E1;
 
     text-align: center;
+}
+@media screen and (max-width: 854px) {
+    h1{
+        font-family: Figtree;
+        font-weight: 800;
+        font-size: 2.1rem;
+        line-height: 2.2rem;
+        color: #FFFFFF;
+    }
+    h2{
+        font-family: Figtree;
+        font-weight: 800;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color: #FFFFFF;
+    }
+    h3{
+        font-family: Figtree;
+        font-weight: 700;
+        font-size: 1.1rem;
+        line-height: 1.625rem;
+        color: #FFFFFF;
+    }
+    h4{
+        font-family: Figtree;
+        font-weight: 600;
+        font-size: 0.75rem;
+        line-height: 1.1875rem;
+        color: #FFFFFF;
+    }
+    p{
+        font-family: Figtree;
+        font-style: normal;
+        font-size: 0.85rem;
+        font-weight: 400;
+        line-height: 19px;
+    }
+    button {
+        background: #7ECCD7;
+        border-radius: 5px;
+        border: none;
+        color: #FFFFFF;
+        padding: 7px 29px;
+        cursor: pointer;
+        font-size: 0.75rem;
+        font-weight: 700;
+        line-height: 19px;
+        font-style: normal;
+    }
+    .nav-items button{
+        background: #7ECCD7;
+        border-radius: 5px;
+        border: none;
+        color: #FFFFFF;
+        padding: 7px 14px;
+        cursor: pointer;
+    
+        font-size: 0.75rem;
+        font-weight: 700;
+        line-height: 19px;
+        font-style: normal;
+    
+    }
+    /* Header */
+    .header {
+        padding-block: 2.2rem 0rem;
+    }
+    .header img[src*="letlogo"]{
+        height: 22px;
+    }
+    .nav-items {
+        gap: 4px;
+    }
+    .nav-items > .transparent {
+        border: 1.5px solid #7ECCD7;
+    }
+    /* FIRST CONTAINERF */
+    .first-container{
+        padding-inline: 3%;
+    }
+    .first-infor * {
+        margin-bottom: 8px;
+    }
+    .first-info {
+        padding-block: 50px 100px;
+    }
+    .us-left button {
+        margin-block: 1rem 2rem;
+    }
+
+
+    /* Second Container */
+    .second-container {
+        padding-block: 50px;
+    }
+    .Us{
+        flex-wrap: wrap;
+    }
+    .us-right{
+        justify-content: center;
+        gap: 20px;
+    }
+    .us-left > .tech{
+        margin-left: 0px;
+    }
+    .tech h3 {
+        margin-top: 4px;
+    }
+    /* Third Container */
+    .third-container {
+        padding-block: 45px;
+    }
+    img[src*="sec4pic1"]{
+        width: 100%;
+    }
+    .tc-L h2 {
+        margin-block: 20px 30px;
+    }
+    .tc-L p {
+        font-size: 1rem;
+        line-height: 20px;
+    }
+    .tc-R {
+        padding-inline: 20px;
+    }
+    /* FOURTH CONTAINER */
+    .fourth-container .lend {
+        margin-bottom: 20px;
+    }
+    .mission {
+        gap: 1px;
+        margin-bottom: 20px;
+    }
+    .mission-info {
+        margin-top: 22px;
+    }
+    .mission-info p {
+        margin-bottom: 1rem;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .fourth-container {
+        padding-block: 50px;
+    }
+    /* FIFTH CONTAINER */
+    .fifth-container {
+        padding-block: 50px;
+    }
+    .fifth-container h2 {
+        margin-block: 12px 25px;
+    }
 }
