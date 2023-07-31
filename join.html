@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="join.css" />
+    <title>Join Team</title>
+  </head>
+  <body>
+    <section class="first">
+      <div class="first-container">
+        <div class="header">
+          <img src="images/letlogo.svg" alt="#" />
+          <nav class="nav-items">
+            <button class="transparent" onclick="location.href='request.html'">
+              REQUEST HELP
+            </button>
+            <button onclick="location.href='Donate.html'">DONATE NOW</button>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <!-- FORM -->
+    <section class="second-container" id="contact_form">
+      <div class="second-cont">
+        <h1>Volunteer Form</h1>
+        <p>
+          Want to join the inner circle responsible for organizing and <br />
+          holding together Let’s Go Campaign? <br />
+          <strong>Send us an application.</strong>
+        </p>
+        <div class="second-cont1">
+          <div class="sectop">
+            <div id="sec1">
+              <label for="Name">Name</label>
+              <input
+                id="f_name"
+                type="text"
+                placeholder="Enter Name"
+                required
+              />
+            </div>
+            <!-- <div id="sec1">
+                <label for="Name">Last name</label>
+                <input type="text" placeholder="Last name" required />
+              </div> -->
+          </div>
+          <div id="sec1" class="mar-top">
+            <label for="email"> Email</label>
+            <input
+              id="email_id"
+              type="email"
+              placeholder="Enter email address"
+              required
+            />
+          </div>
+          <div id="sec1" class="mar-top">
+            <label for="phone_number"> Phone Number</label>
+            <input
+              id="phone_number"
+              type="tel"
+              placeholder="Enter phone number"
+              required
+              maxlength="11"
+            />
+          </div>
+          <div id="sec1" class="mar-top">
+            <label for="address"> Address</label>
+            <input
+              id="address"
+              type="text"
+              placeholder="Enter address"
+              required
+            />
+          </div>
+          <div id="sec1" class="mar-top">
+            <label for="Shirt-Size"> Shirt Size</label>
+            <input
+              id="Shirt-Size"
+              type="text"
+              placeholder="Enter your size"
+              required
+            />
+          </div>
+          <div id="sec1" class="mar-top">
+            <label for="Occupation"> Occupation</label>
+            <input
+              id="Occupation"
+              type="text"
+              placeholder="Enter Occupation"
+              required
+            />
+          </div>
+          <div id="sec1" class="mar-top">
+            <label for="Occupation-p"> Occupation/Place of work</label>
+            <input
+              id="Occupation-p"
+              type="text"
+              placeholder="Enter details"
+              required
+            />
+          </div>
+
+          <div id="sec1" class="mar-top">
+            <label for="comment"> Why do you want to join the LGC team?</label>
+            <textarea
+              id="message"
+              placeholder="Enter comment"
+              required
+            ></textarea>
+          </div>
+          <div id="sec1" class="mar-top">
+            <label for="comment"> What impact do you think you can have to the LGC team?</label>
+            <textarea
+              id="message"
+              placeholder="Enter comment"
+              required
+            ></textarea>
+          </div>
+          <button onclick="SendMail()" type="submit">JOIN TEAM</button>
+        </div>
+      </div>
+    </section>
+  </body>
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-details">
+      <img src="images/letlogo.svg" alt="#" />
+      <div class="socials">
+        <img src="images/twitter.svg" alt="#" />
+        <img src="images/facebook.svg" alt="#" />
+        <img src="images/instagram.svg" alt="#" />
+        <img src="images/git.svg" alt="#" />
+      </div>
+    </div>
+    <div class="fline"></div>
+    <p class="small-things">
+      © Copyright 2023, All Rights Reserved by Let’s Go Campaign
+    </p>
+  </footer>
+</html>

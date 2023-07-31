@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: Figtree;
+    font-weight: 800;
+    font-size: 4.375rem;
+    line-height: 5.25rem;
+    color: #7ECCD7;
+}
+h2{
+    font-family: Figtree;
+    font-weight: 700;
+    font-size: 2.625rem;
+    line-height: 3.25rem;
+    color: #0a0a0a;
+}
+h3{
+    font-family: Figtree;
+    font-weight: 400;
+    font-size: 1.625rem;
+    line-height: 2.25rem;
+    color: #000000;
+}
+h4{
+    font-family: Figtree;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: #FFFFFF;
+}
+p{
+    font-family: Figtree;
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 19px;
+}
+button{
+    background: #7ECCD7;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 52px;
+    cursor: pointer;
+
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 19px;
+    font-style: normal;
+
+}
+label{
+    font-size: 1.5rem;
+    font-family: Figtree;
+    line-height: 2.25rem;
+    color: #121212;
+}
+/* Mobil */
+/* BODY */
+/* HEADER */
+
+/* FIRST CONTAINER */
+.first{
+    background-image: url(images/sec1-bck.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.first-container{
+    max-width: 1440px;
+    padding-inline: 4%;
+    display: block;
+    margin: auto;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 3.1875rem 2rem;
+}
+.nav-items{
+    gap: 9px;
+    display: flex;
+}
+.nav-items > .transparent{
+    background-color: transparent;
+    border: 3px solid #7ECCD7;
+}
+/* Second Container */
+.second-cont h1{
+    margin-block: 2rem 0.5rem;
+}
+.second-cont p{
+    line-height: 1.3rem;
+    margin-bottom: 2.5rem;
+}
+.second-container{
+    background: #ffffff;
+}
+.second-cont{
+    max-width: 1440px;
+    margin: auto;
+    padding-block: 0rem 7.5rem;
+
+    
+    padding-inline: 2rem;
+}
+
+#sec1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#sec1 input{
+    max-width: 46.25rem;
+    padding-block: 1.2rem;
+    padding-inline: 1.5rem;
+    border-radius: 6px;
+    background: transparent;
+    border: 1px solid #7ECCD7;
+    
+}
+.mar-top{
+    margin-bottom: 1rem;
+}
+#sec1 input::placeholder{
+    /* padding-left: 1rem; */
+    font-size: 1rem;
+    font-weight: 300;
+    color: #000;
+}
+.sectop{
+    margin-bottom:  1rem;
+}
+/* #sec1 input[type="email"]{
+    width: 100%;
+    
+} */
+
+
+textarea {
+    max-width: 49rem;
+    height: 12.875rem;
+    padding-block: 1.2rem;
+    padding-inline: 1.5rem;
+    box-sizing: border-box;
+    border: 1px solid #7ECCD7;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 16px;
+    resize: none;
+}
+select {
+    display: block;
+    width: 55%;
+    /* max-width: 46.25rem; */
+    margin: 10px 0 0 0;
+    padding-block: 1.2rem;
+    padding-inline: 1.5rem;
+    min-height: 2em;
+
+    font-family: Figtree;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #000;
+    border: 1px solid #7ECCD7;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #313131;
+    padding-block: 97px 49px;
+}
+.footer-details{
+    max-width: 1440px;
+    padding-inline: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+}
+.fline{
+    border: 1px solid #626262;
+    max-width: 1400px;
+    padding-inline: 2%;
+    margin: auto;
+    margin-block: 100px 42px;
+}
+.small-things{
+    font-family: Figtree;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #CBD5E1;
+
+    text-align: center;
+}
+@media screen and (max-width: 854px) {
+    h1{
+        font-family: Figtree;
+        font-weight: 800;
+        font-size: 2.1rem;
+        line-height: 2.2rem;
+        color: #FFFFFF;
+    }
+    h2{
+        font-family: Figtree;
+        font-weight: 800;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color: #FFFFFF;
+    }
+    h3{
+        font-family: Figtree;
+        font-weight: 700;
+        font-size: 1.1rem;
+        line-height: 1.625rem;
+        color: #FFFFFF;
+    }
+    h4{
+        font-family: Figtree;
+        font-weight: 600;
+        font-size: 0.75rem;
+        line-height: 1.1875rem;
+        color: #FFFFFF;
+    }
+    p{
+        font-family: Figtree;
+        font-style: normal;
+        font-size: 0.85rem;
+        font-weight: 400;
+        line-height: 19px;
+    }
+    button {
+        background: #7ECCD7;
+        border-radius: 5px;
+        border: none;
+        color: #FFFFFF;
+        padding: 7px 29px;
+        cursor: pointer;
+        font-size: 0.75rem;
+        font-weight: 700;
+        line-height: 19px;
+        font-style: normal;
+    }
+    .nav-items button{
+        background: #7ECCD7;
+        border-radius: 5px;
+        border: none;
+        color: #FFFFFF;
+        padding: 7px 14px;
+        cursor: pointer;
+    
+        font-size: 0.75rem;
+        font-weight: 700;
+        line-height: 19px;
+        font-style: normal;
+    
+    }
+    /* Header */
+    .header {
+        padding-block: 2.2rem 0rem;
+    }
+    .header img[src*="letlogo"]{
+        height: 22px;
+    }
+    .nav-items {
+        gap: 4px;
+    }
+    .nav-items > .transparent {
+        border: 1.5px solid #7ECCD7;
+    }
+    /* FIRST CONTAINERF */
+    .first-container{
+        padding-inline: 3%;
+    }
+    .first-infor * {
+        margin-bottom: 8px;
+    }
+    .first-info {
+        padding-block: 50px 100px;
+    }
+    .us-left button {
+        margin-block: 1rem 2rem;
+    }
+
+
+    /* Second Container */
+    .second-container {
+        padding-block: 50px;
+    }
+    .Us{
+        flex-wrap: wrap;
+    }
+    .us-right{
+        justify-content: center;
+        gap: 20px;
+    }
+    .us-left > .tech{
+        margin-left: 0px;
+    }
+    .tech h3 {
+        margin-top: 4px;
+    }
+    /* Third Container */
+    .third-container {
+        padding-block: 45px;
+    }
+    img[src*="sec4pic1"]{
+        width: 100%;
+    }
+    .tc-L h2 {
+        margin-block: 20px 30px;
+    }
+    .tc-L p {
+        font-size: 1rem;
+        line-height: 20px;
+    }
+    .tc-R {
+        padding-inline: 20px;
+    }
+    /* FOURTH CONTAINER */
+    .fourth-container .lend {
+        margin-bottom: 20px;
+    }
+    .mission {
+        gap: 1px;
+        margin-bottom: 20px;
+    }
+    .mission-info {
+        margin-top: 22px;
+    }
+    .mission-info p {
+        margin-bottom: 1rem;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .fourth-container {
+        padding-block: 50px;
+    }
+    /* FIFTH CONTAINER */
+    .fifth-container {
+        padding-block: 50px;
+    }
+    .fifth-container h2 {
+        margin-block: 12px 25px;
+    }
+}
