@@ -445,6 +445,9 @@ footer{
     text-align: center;
 }
 @media screen and (max-width: 854px) {
+    #preloader img{
+        height: 20px;
+    }
     h1{
         font-family: Figtree;
         font-weight: 800;

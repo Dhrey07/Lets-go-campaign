@@ -10,7 +10,7 @@
     <section class="first">
       <div class="first-container">
         <div class="header">
-          <img src="images/letlogo.svg" alt="#" />
+          <a href="index.html"><img src="images/letlogo.svg" alt="#" /></a>
           <nav class="nav-items">
             <button class="transparent" onclick="location.href='request.html'">
               REQUEST HELP
@@ -23,102 +23,114 @@
     <!-- FORM -->
     <section class="second-container" id="contact_form">
       <div class="second-cont">
-        <h1>Volunteer Form</h1>
+        <h1>Join Team</h1>
         <p>
           Want to join the inner circle responsible for organizing and <br />
           holding together Let’s Go Campaign? <br />
           <strong>Send us an application.</strong>
         </p>
-        <div class="second-cont1">
-          <div class="sectop">
-            <div id="sec1">
-              <label for="Name">Name</label>
+        <form action="https://formspree.io/f/mqkvewlr" method="post">
+          <div class="second-cont1">
+            <div class="sectop">
+              <div id="sec1">
+                <label for="Name">Name</label>
+                <input
+                  name="fullname"
+                  id="f_name"
+                  type="text"
+                  placeholder="Enter Name"
+                  required
+                />
+              </div>
+            </div>
+            <div id="sec1" class="mar-top">
+              <label for="email"> Email</label>
               <input
-                id="f_name"
-                type="text"
-                placeholder="Enter Name"
+                name="email"
+                id="email_id"
+                type="email"
+                placeholder="Enter email address"
                 required
               />
             </div>
-            <!-- <div id="sec1">
-                <label for="Name">Last name</label>
-                <input type="text" placeholder="Last name" required />
-              </div> -->
-          </div>
-          <div id="sec1" class="mar-top">
-            <label for="email"> Email</label>
-            <input
-              id="email_id"
-              type="email"
-              placeholder="Enter email address"
-              required
-            />
-          </div>
-          <div id="sec1" class="mar-top">
-            <label for="phone_number"> Phone Number</label>
-            <input
-              id="phone_number"
-              type="tel"
-              placeholder="Enter phone number"
-              required
-              maxlength="11"
-            />
-          </div>
-          <div id="sec1" class="mar-top">
-            <label for="address"> Address</label>
-            <input
-              id="address"
-              type="text"
-              placeholder="Enter address"
-              required
-            />
-          </div>
-          <div id="sec1" class="mar-top">
-            <label for="Shirt-Size"> Shirt Size</label>
-            <input
-              id="Shirt-Size"
-              type="text"
-              placeholder="Enter your size"
-              required
-            />
-          </div>
-          <div id="sec1" class="mar-top">
-            <label for="Occupation"> Occupation</label>
-            <input
-              id="Occupation"
-              type="text"
-              placeholder="Enter Occupation"
-              required
-            />
-          </div>
-          <div id="sec1" class="mar-top">
-            <label for="Occupation-p"> Occupation/Place of work</label>
-            <input
-              id="Occupation-p"
-              type="text"
-              placeholder="Enter details"
-              required
-            />
-          </div>
+            <div id="sec1" class="mar-top">
+              <label for="phone_number"> Phone Number</label>
+              <input
+                name="phonenumber"
+                id="phone_number"
+                type="tel"
+                placeholder="Enter phone number"
+                required
+                maxlength="11"
+              />
+            </div>
+            <div id="sec1" class="mar-top">
+              <label for="address"> Address</label>
+              <input
+                name="address"
+                id="address"
+                type="text"
+                placeholder="Enter address"
+                required
+              />
+            </div>
+            <div id="sec1" class="mar-top">
+              <label for="Shirt-Size"> Shirt Size</label>
+              <select id="choice" name="choice" class="mar-top">
+                <option>(Select Category)</option>
+                <option>Small</option>
+                <option>Large</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>XXXL</option>
+              </select>
+            </div>
+            <div id="sec1" class="mar-top">
+              <label for="Occupation"> Occupation</label>
+              <input
+                name="occupation"
+                id="Occupation"
+                type="text"
+                placeholder="Enter Occupation"
+                required
+              />
+            </div>
+            <div id="sec1" class="mar-top">
+              <label for="Occupation-p"> Occupation/Place of work</label>
+              <input
+                name="Occupationplace"
+                id="Occupation-p"
+                type="text"
+                placeholder="Enter details"
+                required
+              />
+            </div>
 
-          <div id="sec1" class="mar-top">
-            <label for="comment"> Why do you want to join the LGC team?</label>
-            <textarea
-              id="message"
-              placeholder="Enter comment"
-              required
-            ></textarea>
+            <div id="sec1" class="mar-top">
+              <label for="comment">
+                Why do you want to join the LGC team?</label
+              >
+              <textarea
+                name="Why Join Us?"
+                id="message"
+                placeholder="Enter comment"
+                required
+              ></textarea>
+            </div>
+            <div id="sec1" class="mar-top">
+              <label for="comment">
+                What impact do you think you can have to the LGC team?</label
+              >
+              <textarea
+                name="Impact to the Team"
+                id="message"
+                placeholder="Enter comment"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">JOIN TEAM</button>
           </div>
-          <div id="sec1" class="mar-top">
-            <label for="comment"> What impact do you think you can have to the LGC team?</label>
-            <textarea
-              id="message"
-              placeholder="Enter comment"
-              required
-            ></textarea>
-          </div>
-          <button onclick="SendMail()" type="submit">JOIN TEAM</button>
-        </div>
+        </form>
       </div>
     </section>
   </body>

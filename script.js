@@ -1,10 +1,4 @@
-// WINDOW LOADER
-const loader = document.getElementById("preloader");
-window.addEventListener("load", function(){
-    loader.style.display = "none";
-})
-
-// //Script
+// //Mail Script
 // function SendMail(){
 // 	var params = {
 // 		last_name : document.getElementById("last_name").value,
@@ -18,5 +12,4 @@ window.addEventListener("load", function(){
 // 	emailjs.send("service_77ebd5b", "template_vu5nbyn", params).then(function (res){
 // 		alert("Success! " + res.status);
 // 	})
-	
 // }

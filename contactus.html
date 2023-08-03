@@ -11,7 +11,7 @@
     <section class="first">
       <div class="first-container">
         <div class="header">
-          <img src="images/letlogo.svg" alt="#" />
+          <a href="index.html"><img src="images/letlogo.svg" alt="#" /></a>
           <nav class="nav-items">
             <button class="transparent">REQUEST HELP</button>
             <button>DONATE NOW</button>
@@ -20,58 +20,60 @@
       </div>
     </section>
     <!-- FORM -->
-    <form action="#" class="second-container" id="contact_form">
+    <section class="second-container" id="contact_form">
       <div class="second-cont">
         <h1>Contact Us</h1>
         <h3>How can we help you?</h3>
-        <div class="second-cont1">
-          <div class="sectop">
-            <div id="sec1">
-              <label for="Name">Name</label>
+        <form action="https://formspree.io/f/xrgwerlo" method="post">
+          <div class="second-cont1">
+            <div class="sectop">
+              <div id="sec1">
+                <label for="Name">Name</label>
+                <input
+                  name="fullname"
+                  id="f_name"
+                  type="text"
+                  placeholder="Enter Name"
+                  required
+                />
+              </div>
+            </div>
+            <div id="sec1" class="mar-top">
+              <label for="phone_number"> Phone Number</label>
               <input
-                id="f_name"
-                type="text"
-                placeholder="Enter Name"
+                name="phonenumber"
+                id="phone_number"
+                type="tel"
+                placeholder="Enter phone number"
+                required
+                maxlength="11"
+              />
+            </div>
+            <div id="sec1" class="mar-top">
+              <label for="email"> Email</label>
+              <input
+                name="email"
+                id="email_id"
+                type="email"
+                placeholder="Enter email address"
                 required
               />
             </div>
-            <!-- <div id="sec1">
-                <label for="Name">Last name</label>
-                <input type="text" placeholder="Last name" required />
-              </div> -->
-          </div>
-          <div id="sec1" class="mar-top">
-            <label for="phone_number"> Phone Number</label>
-            <input
-              id="phone_number"
-              type="tel"
-              placeholder="Enter phone number"
-              required
-              maxlength="11"
-            />
-          </div>
-          <div id="sec1" class="mar-top">
-            <label for="email"> Email</label>
-            <input
-              id="email_id"
-              type="email"
-              placeholder="Enter email address"
-              required
-            />
-          </div>
 
-          <div id="sec1" class="mar-top">
-            <label for="email"> Your Message</label>
-            <textarea
-              id="message"
-              placeholder="Enter comment"
-              required
-            ></textarea>
+            <div id="sec1" class="mar-top">
+              <label for="email"> Your Message</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Enter comment"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Contact Us</button>
           </div>
-          <button onclick="SendMail()" type="submit">Contact Us</button>
-        </div>
+        </form>
       </div>
-    </form>
+    </section>
 
     <footer>
       <div class="footer-details">

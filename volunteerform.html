@@ -10,7 +10,7 @@
     <section class="first">
       <div class="first-container">
         <div class="header">
-          <img src="images/letlogo.svg" alt="#" />
+          <a href="index.html"><img src="images/letlogo.svg" alt="#" /></a>
           <nav class="nav-items">
             <button class="transparent" onclick="location.href='request.html'">
               REQUEST HELP
@@ -27,91 +27,99 @@
         <p>
           Fill out the form to become a volunteer.
           <br />
-          (All fields are required)
+          <strong>(All fields are required)</strong>
         </p>
-        <div class="second-cont1">
-          <div class="sectop">
-            <div id="sec1">
-              <label for="Name">Name</label>
+        <form action="https://formspree.io/f/mzbldyaz" method="POST">
+          <div class="second-cont1">
+            <div class="sectop">
+              <div id="sec1">
+                <label for="Name">Name</label>
+                <input
+                  name="Full Name"
+                  id="f_name"
+                  type="text"
+                  placeholder="Enter Name"
+                  required
+                />
+              </div>
+            </div>
+            <div id="sec1" class="mar-top">
+              <label for="email"> Email</label>
               <input
-                id="f_name"
-                type="text"
-                placeholder="Enter Name"
+                name="email"
+                id="email_id"
+                type="email"
+                placeholder="Enter email address"
                 required
               />
             </div>
-            <!-- <div id="sec1">
-                <label for="Name">Last name</label>
-                <input type="text" placeholder="Last name" required />
-              </div> -->
-          </div>
-          <div id="sec1" class="mar-top">
-            <label for="email"> Email</label>
-            <input
-              id="email_id"
-              type="email"
-              placeholder="Enter email address"
-              required
-            />
-          </div>
-          <div id="sec1" class="mar-top">
-            <label for="phone_number"> Phone Number</label>
-            <input
-              id="phone_number"
-              type="tel"
-              placeholder="Enter phone number"
-              required
-              maxlength="11"
-            />
-          </div>
-          <div id="sec1" class="mar-top">
-            <label for="address"> Address</label>
-            <input
-              id="address"
-              type="text"
-              placeholder="Enter address"
-              required
-            />
-          </div>
-          <div id="sec1" class="mar-top">
-            <label for="Shirt-Size"> Shirt Size</label>
-            <input
-              id="Shirt-Size"
-              type="text"
-              placeholder="Enter your size"
-              required
-            />
-          </div>
-          <div id="sec1" class="mar-top">
-            <label for="Occupation"> Occupation</label>
-            <input
-              id="Occupation"
-              type="text"
-              placeholder="Enter Occupation"
-              required
-            />
-          </div>
-          <div id="sec1" class="mar-top">
-            <label for="Occupation-p"> Occupation/Place of work</label>
-            <input
-              id="Occupation-p"
-              type="text"
-              placeholder="Enter details"
-              required
-            />
-          </div>
-        
+            <div id="sec1" class="mar-top">
+              <label for="phone_number"> Phone Number</label>
+              <input
+                name="Phone Number"
+                id="phone_number"
+                type="tel"
+                placeholder="Enter phone number"
+                required
+                maxlength="11"
+              />
+            </div>
+            <div id="sec1" class="mar-top">
+              <label for="address"> Address</label>
+              <input
+                name="Address"
+                id="address"
+                type="text"
+                placeholder="Enter address"
+                required
+              />
+            </div>
+            <div id="sec1" class="mar-top">
+              <label for="Shirt-Size"> Shirt Size</label>
+              <select id="choice" name="choice" class="mar-top">
+                <option>(Select Category)</option>
+                <option>Small</option>
+                <option>Large</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>XXXL</option>
+              </select>
+            </div>
+            <div id="sec1" class="mar-top">
+              <label for="Occupation"> Occupation</label>
+              <input
+                name="Occupation"
+                id="Occupation"
+                type="text"
+                placeholder="Enter Occupation"
+                required
+              />
+            </div>
+            <div id="sec1" class="mar-top">
+              <label for="Occupation-p"> Occupation/Place of work</label>
+              <input
+                name="Occupation Place"
+                id="Occupation-p"
+                type="text"
+                placeholder="Enter details"
+                required
+              />
+            </div>
 
-          <div id="sec1" class="mar-top">
-            <label for="comment"> Why do you want to volunteer with LGC?</label>
-            <textarea
-              id="message"
-              placeholder="Enter comment"
-              required
-            ></textarea>
+            <div id="sec1" class="mar-top">
+              <label for="comment">
+                Why do you want to volunteer with LGC?</label
+              >
+              <textarea
+                name="Why Volunteer for LGC"
+                id="message"
+                placeholder="Enter comment"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">REQUEST HELP</button>
           </div>
-          <button onclick="SendMail()" type="submit">REQUEST HELP</button>
-        </div>
+        </form>
       </div>
     </section>
   </body>
