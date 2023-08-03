@@ -10,11 +10,33 @@ h1{
     font-size: 4.375rem;
     line-height: 5.25rem;
     color: #7ECCD7;
+    padding: 2rem 0;
+}
+body > section.techs > img{
+    display: flex;
+justify-content: center;
+text-align: center;
+margin: auto;
+width: 100%;
+}
+body > section.techs > ul > li{
+    font-family: Figtree;
+    font-size: 2.625rem;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;    
+    margin-left: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.sub-section{
+    margin-left: 2.8rem;
 }
 h2{
     font-family: Figtree;
     font-weight: 700;
-    font-size: 2.625rem;
+    font-size: 1.625rem;
     line-height: 3.25rem;
     color: #0a0a0a;
 }
@@ -24,6 +46,7 @@ h3{
     font-size: 1.625rem;
     line-height: 2.25rem;
     color: #000000;
+    padding-bottom: 1.5rem;
 }
 h4{
     font-family: Figtree;
@@ -39,6 +62,16 @@ p{
     font-weight: 500;
     line-height: 19px;
 }
+
+body > section.techs > div > div > div:nth-child(8) > ul{
+    font-family: Figtree;
+    font-weight: 400;
+    font-size: 1.225rem;
+    line-height: 1.85rem;
+    color: #000000;
+    margin-left: 2rem;
+    font-weight: 500;
+}
 button{
     background: #7ECCD7;
     border-radius: 5px;
@@ -51,7 +84,7 @@ button{
     font-weight: 700;
     line-height: 19px;
     font-style: normal;
-
+     margin: 2rem 0 ;
 }
 label{
     font-size: 1.5rem;
