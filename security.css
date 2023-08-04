@@ -174,33 +174,36 @@ footer{
     text-align: center;
 }
 @media screen and (max-width: 854px) {
+    #preloader img{
+        height: 20px;
+    }
     h1{
         font-family: Figtree;
         font-weight: 800;
         font-size: 2.1rem;
         line-height: 2.2rem;
-        color: #FFFFFF;
+        color: #121212;
     }
     h2{
         font-family: Figtree;
         font-weight: 800;
         font-size: 1.5rem;
         line-height: 2rem;
-        color: #FFFFFF;
+        color: #121212;
     }
     h3{
         font-family: Figtree;
         font-weight: 700;
         font-size: 1.1rem;
         line-height: 1.625rem;
-        color: #FFFFFF;
+        color: #121212;
     }
     h4{
         font-family: Figtree;
         font-weight: 600;
         font-size: 0.75rem;
         line-height: 1.1875rem;
-        color: #FFFFFF;
+        color: #121212;
     }
     p{
         font-family: Figtree;
@@ -237,7 +240,7 @@ footer{
     }
     /* Header */
     .header {
-        padding-block: 2.2rem 0rem;
+        padding-block: 2.2rem 1.4rem;
     }
     .header img[src*="letlogo"]{
         height: 22px;
@@ -261,67 +264,41 @@ footer{
     .us-left button {
         margin-block: 1rem 2rem;
     }
-
-
-    /* Second Container */
-    .second-container {
-        padding-block: 50px;
+    /* SECOND CONTAINER */
+    .techs{
+        padding-inline: 1rem;
     }
-    .Us{
-        flex-wrap: wrap;
-    }
-    .us-right{
-        justify-content: center;
-        gap: 20px;
-    }
-    .us-left > .tech{
-        margin-left: 0px;
-    }
-    .tech h3 {
-        margin-top: 4px;
-    }
-    /* Third Container */
-    .third-container {
-        padding-block: 45px;
-    }
-    img[src*="sec4pic1"]{
+    .row img{
         width: 100%;
     }
-    .tc-L h2 {
-        margin-block: 20px 30px;
+    .row h3{
+        font-weight: 400;
     }
-    .tc-L p {
-        font-size: 1rem;
-        line-height: 20px;
+    .second-cont {
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding-block: 0rem 3rem;
     }
-    .tc-R {
-        padding-inline: 20px;
+    .second-cont h3{
+        margin-bottom: 0rem;
     }
-    /* FOURTH CONTAINER */
-    .fourth-container .lend {
-        margin-bottom: 20px;
+    .payment{
+        flex-wrap: wrap;
     }
-    .mission {
-        gap: 1px;
-        margin-bottom: 20px;
+    .pay1-1 {
+        margin-left: 0rem;
     }
-    .mission-info {
-        margin-top: 22px;
+    .second-cont img {
+        margin-top: 0rem;
     }
-    .mission-info p {
-        margin-bottom: 1rem;
-        text-align: justify;
-        font-size: 14px;
-        line-height: 22px;
+    .payment img, 
+    .second-cont img{
+        width: 100%;
     }
-    .fourth-container {
-        padding-block: 50px;
-    }
-    /* FIFTH CONTAINER */
-    .fifth-container {
-        padding-block: 50px;
-    }
-    .fifth-container h2 {
-        margin-block: 12px 25px;
+
+
+    
+    a img[src*="letlogo"]{
+        height: 22px;
     }
 }

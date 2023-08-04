@@ -250,6 +250,11 @@ img[src*="youth"]
     text-align: justify;
     max-width: 668px;
 }
+.tc-L > button{
+    color: #7ECCD7;
+    background: #FFFFFF;
+    margin-top: 1rem;
+}
 .tc-R{
     background-image: url(images/Union.svg) ;
     background-repeat: no-repeat;
@@ -446,7 +451,8 @@ footer{
 }
 @media screen and (max-width: 854px) {
     #preloader img{
-        height: 20px;
+        height: 30px;
+        padding-top: 40%;
     }
     h1{
         font-family: Figtree;
@@ -514,7 +520,7 @@ footer{
         padding-block: 2.2rem 0rem;
     }
     .header img[src*="letlogo"]{
-        height: 22px;
+        height: 32px;
     }
     .nav-items {
         gap: 4px;
