@@ -469,6 +469,9 @@ img[src*="BTN"]{
     
 
 }
+.manuever img{
+    cursor: pointer;
+}
 .manuever-btn p{
     color: black;
     max-width: 250px;
