@@ -435,7 +435,48 @@ img[src*="youth"]
     display: block;
     margin-inline: auto;
 }
+.sub-fifth .lend{
+    justify-content: center;
+    margin-block: 7rem 2rem;
+}
+.lgc-info{
+    position: relative;
+}
+.lets-go-courasel{
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth;
+    z-index: 2;
+    gap: 1.2rem;
+}
+.lets-go-courasel::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+img[src*="for-img"]{
+    height: 400px;
+}
+img[src*="BTN"]{
+    height: 4rem;
+}
+.manuever{
+    max-width: 30rem;
+    margin: auto;
+}
+.manuever-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 
+}
+.manuever-btn p{
+    color: black;
+    max-width: 250px;
+    text-align: center;
+}
+.sub-fifth button{
+    margin-block: 3rem;
+}
 
 /* FOOTER */
 footer{

@@ -20,3 +20,12 @@ window.addEventListener("load", function(){
 // 	})
 	
 // }
+//Scroll At Testimonial Section
+function scrolll() {
+    var leftMove = document.querySelector(".lets-go-courasel");
+    leftMove.scrollBy(-350, 0)
+}
+function scrollr() {
+    var RightMove = document.querySelector(".lets-go-courasel");
+    RightMove.scrollBy(350, 0)
+}
