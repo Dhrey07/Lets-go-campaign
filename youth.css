@@ -54,7 +54,7 @@ body > section.techs > div:nth-child(5) > div:nth-child(1) > h2{
 h3{
     font-family: Figtree;
     font-weight: 400;
-    font-size: 1.625rem;
+    font-size: 1.25rem;
     line-height: 2.25rem;
     color: #000000;
 }
@@ -139,6 +139,8 @@ label{
 .row{
     display: flex;
     gap: 8px;
+    margin-block: 1rem;
+    /* align-items: center; */
 }
 
 /* FOOTER */
@@ -195,6 +197,7 @@ footer{
         font-size: 1.1rem;
         line-height: 1.625rem;
         color: #121212;
+        text-align: ;
     }
     h4{
         font-family: Figtree;

@@ -82,6 +82,7 @@ button{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    /* height: 100svh; */
     
 }
 .first-container{
@@ -185,6 +186,7 @@ img[src*="line.svg"]{
     flex-wrap: wrap;
 }
 .tech{
+    position: relative;
     background: #FFFFFF;
     border: 1px solid #f1f1f1;
     box-shadow: 0px 10px 15px rgba(221, 221, 221, 0.15);
@@ -192,6 +194,10 @@ img[src*="line.svg"]{
     width: 324px;
     cursor: pointer;
     transition: transform 700ms;
+}
+img[src*="tag"]{
+    position: absolute;
+    top: 0;
 }
 .social-portfolio{
     margin-top: 0.5rem;
@@ -355,6 +361,25 @@ img[src*="youth"]
     flex-wrap: wrap;
     gap: 35px;
 }
+/* .trusted-img{
+    display: inline-block;
+    animation: 9.4s slide infinite linear;
+}
+#logos{
+    white-space: nowrap;
+    overflow: hidden;
+}
+#logos:hover .trusted-img{
+    animation-play-state: paused;
+}
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+} */
 .fourth-container button{
     display: block;
     margin: auto;
@@ -510,6 +535,11 @@ footer{
     color: #CBD5E1;
 
     text-align: center;
+}
+@media screen and (min-width:1200px) and (max-width:1440px) {
+    .first{
+        height: 100svh;
+    }
 }
 @media screen and (max-width: 854px) {
     #preloader img{

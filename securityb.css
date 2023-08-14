@@ -43,7 +43,7 @@ h2{
 h3{
     font-family: Figtree;
     font-weight: 400;
-    font-size: 1.625rem;
+    font-size: 1.25rem;
     line-height: 2.25rem;
     color: #000000;
     padding-bottom: 1.5rem;
@@ -84,7 +84,7 @@ button{
     font-weight: 700;
     line-height: 19px;
     font-style: normal;
-     margin: 2rem 0 ;
+     /* margin: 2rem 0 ; */
 }
 label{
     font-size: 1.5rem;
@@ -139,6 +139,9 @@ label{
 .row{
     display: flex;
     gap: 8px;
+}
+.sub-section button{
+    margin-top: 2rem;
 }
 
 /* FOOTER */
@@ -265,7 +268,9 @@ footer{
     /* SECOND CONTAINER */
     body > section.techs > ul > li {
         font-size: 2rem;
+        margin-left: 1.5rem;
     }
+    
     .sub-section{
         margin-left: 1.5rem;
     }
