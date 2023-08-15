@@ -198,6 +198,7 @@ img[src*="line.svg"]{
 img[src*="tag"]{
     position: absolute;
     top: 0;
+    left: 0;
 }
 .social-portfolio{
     margin-top: 0.5rem;
