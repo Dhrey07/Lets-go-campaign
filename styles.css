@@ -156,7 +156,7 @@ img[src*="line.svg"]{
     max-width: 1440px;
     display: block;
     margin: auto;
-    padding-block: 160px;
+    padding-block: 100px;
 }
 
 .Us{
@@ -311,7 +311,7 @@ img[src*="youth"]
     padding-inline: 4%;
     display: block;
     margin: auto;
-    padding-block: 160px;
+    padding-block: 100px;
 }
 .fourth-container img{
     border-radius: 6px;
@@ -399,7 +399,7 @@ img[src*="youth"]
     padding-inline: 4%;
     display: block;
     margin: auto;
-    padding-block: 130px;
+    padding-block: 90px;
 }
 .fifth-top{
     max-width: 400px;
@@ -452,7 +452,7 @@ img[src*="youth"]
 .fifth-container h1{
     max-width: 638px;
     text-align: center;
-    margin-block: 100px 30px;
+    margin-block: 70px 30px;
     margin-inline: auto;
 
     color: black;
@@ -463,7 +463,7 @@ img[src*="youth"]
 }
 .sub-fifth .lend{
     justify-content: center;
-    margin-block: 7rem 2rem;
+    margin-block: 5rem 2rem;
 }
 .lgc-info{
     position: relative;
@@ -510,7 +510,7 @@ img[src*="BTN"]{
 /* FOOTER */
 footer{
     background-color: #313131;
-    padding-block: 97px 49px;
+    padding-block: 70px 49px;
 }
 .footer-details{
     max-width: 1440px;
@@ -526,7 +526,7 @@ footer{
     max-width: 1400px;
     padding-inline: 2%;
     margin: auto;
-    margin-block: 100px 42px;
+    margin-block: 80px 42px;
 }
 .small-things{
     font-family: Figtree;
@@ -537,9 +537,9 @@ footer{
 
     text-align: center;
 }
-@media screen and (min-width:1200px) and (max-width:1440px) {
+@media screen and (min-width:1200px) and (max-width:1445px) {
     .first{
-        height: 100svh;
+        height: 100vh;
     }
 }
 @media screen and (max-width: 854px) {
@@ -696,5 +696,10 @@ footer{
     }
     .fifth-container h2 {
         margin-block: 12px 25px;
+    }
+}
+@media screen and (max-width: 854px) {
+    .nav-items button{
+        padding: 8px 5px;
     }
 }
