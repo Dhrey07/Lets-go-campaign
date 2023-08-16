@@ -107,7 +107,7 @@ button{
     border: 3px solid #7ECCD7;
 }
 .first-info{
-    padding-block: 50px 180px;
+    padding-block: 140px 180px;
     display: flex;
     flex-direction: row;
     align-items: center;

@@ -13,8 +13,10 @@
         <div class="header">
           <a href="index.html"><img src="images/letlogo.svg" alt="#" /></a>
           <nav class="nav-items">
-            <button class="transparent">REQUEST HELP</button>
-            <button>DONATE NOW</button>
+            <button class="transparent" onclick="location.href='request.html'">
+              REQUEST HELP
+            </button>
+            <button onclick="location.href='Donate.html'">DONATE NOW</button>
           </nav>
         </div>
       </div>
@@ -22,56 +24,58 @@
     <!-- FORM -->
     <section class="second-container" id="contact_form">
       <div class="second-cont">
-        <h1>Contact Us</h1>
-        <h3>How can we help you?</h3>
-        <form action="https://formspree.io/f/xrgwerlo" method="post">
-          <div class="second-cont1">
-            <div class="sectop">
-              <div id="sec1">
-                <label for="Name">Name</label>
+        <div class="sec-cont-inf">
+          <h1>Contact Us</h1>
+          <h3>How can we help you?</h3>
+          <form action="https://formspree.io/f/xrgwerlo" method="post">
+            <div class="second-cont1">
+              <div class="sectop">
+                <div id="sec1">
+                  <label for="Name">Name</label>
+                  <input
+                    name="fullname"
+                    id="f_name"
+                    type="text"
+                    placeholder="Enter Name"
+                    required
+                  />
+                </div>
+              </div>
+              <div id="sec1" class="mar-top">
+                <label for="phone_number"> Phone Number</label>
                 <input
-                  name="fullname"
-                  id="f_name"
-                  type="text"
-                  placeholder="Enter Name"
+                  name="phonenumber"
+                  id="phone_number"
+                  type="tel"
+                  placeholder="Enter phone number"
+                  required
+                  maxlength="11"
+                />
+              </div>
+              <div id="sec1" class="mar-top">
+                <label for="email"> Email</label>
+                <input
+                  name="email"
+                  id="email_id"
+                  type="email"
+                  placeholder="Enter email address"
                   required
                 />
               </div>
-            </div>
-            <div id="sec1" class="mar-top">
-              <label for="phone_number"> Phone Number</label>
-              <input
-                name="phonenumber"
-                id="phone_number"
-                type="tel"
-                placeholder="Enter phone number"
-                required
-                maxlength="11"
-              />
-            </div>
-            <div id="sec1" class="mar-top">
-              <label for="email"> Email</label>
-              <input
-                name="email"
-                id="email_id"
-                type="email"
-                placeholder="Enter email address"
-                required
-              />
-            </div>
 
-            <div id="sec1" class="mar-top">
-              <label for="email"> Your Message</label>
-              <textarea
-                name="message"
-                id="message"
-                placeholder="Enter comment"
-                required
-              ></textarea>
+              <div id="sec1" class="mar-top">
+                <label for="email"> Your Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Enter comment"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit">Contact Us</button>
             </div>
-            <button type="submit">Contact Us</button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </section>
 

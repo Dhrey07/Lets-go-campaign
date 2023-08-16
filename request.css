@@ -70,17 +70,19 @@ label{
 }
 .first-container{
     max-width: 1440px;
-    padding-inline: 4%;
+    /* padding-inline: 4%; */
     display: block;
     margin: auto;
     
 }
 .header{
+    margin-inline: 4%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-block: 3rem 3rem;
 }
+
 .nav-items{
     gap: 9px;
     display: flex;
@@ -90,6 +92,9 @@ label{
     border: 3px solid #7ECCD7;
 }
 /* Second Container */
+.sec-cont-inf{
+    margin-inline: 4%;
+}
 .second-cont h1{
     margin-block: 2rem 0.5rem;
 }
@@ -106,7 +111,7 @@ label{
     padding-block: 0rem 7.5rem;
 
     
-    padding-inline: 2rem;
+    /* padding-inline: 2rem; */
 }
 
 #sec1{
@@ -173,13 +178,18 @@ footer{
     background-color: #313131;
     padding-block: 97px 49px;
 }
-.footer-details{
+.foot{
     max-width: 1440px;
-    padding-inline: 4%;
+    margin: auto;
+}
+.foooooot{
+    margin-inline: 4%;
+}
+.footer-details{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
+    
     
 }
 .fline{
