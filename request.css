@@ -18,6 +18,25 @@ h2{
     line-height: 3.125rem;
     color: #FFFFFF;
 }
+
+body > section.first > div > header > nav > button > span > img{
+    width: 16px;
+}
+
+
+#navbarSupportedContent > ul > li:nth-child(1) > a > button{
+    background: transparent;
+
+    border: 3px solid #7ECCD7;
+}
+
+
+#navbarSupportedContent > ul{
+float: right;
+}
+body > section.first > div > header > nav > button{
+    color: white;
+}
 h3{
     font-family: Figtree;
     font-weight: 700;
@@ -70,19 +89,17 @@ label{
 }
 .first-container{
     max-width: 1440px;
-    /* padding-inline: 4%; */
+    padding-inline: 4%;
     display: block;
     margin: auto;
     
 }
 .header{
-    margin-inline: 4%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-block: 3rem 3rem;
 }
-
 .nav-items{
     gap: 9px;
     display: flex;
@@ -92,9 +109,6 @@ label{
     border: 3px solid #7ECCD7;
 }
 /* Second Container */
-.sec-cont-inf{
-    margin-inline: 4%;
-}
 .second-cont h1{
     margin-block: 2rem 0.5rem;
 }
@@ -111,7 +125,7 @@ label{
     padding-block: 0rem 7.5rem;
 
     
-    /* padding-inline: 2rem; */
+    padding-inline: 2rem;
 }
 
 #sec1{
@@ -178,18 +192,13 @@ footer{
     background-color: #313131;
     padding-block: 97px 49px;
 }
-.foot{
-    max-width: 1440px;
-    margin: auto;
-}
-.foooooot{
-    margin-inline: 4%;
-}
 .footer-details{
+    max-width: 1440px;
+    padding-inline: 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin: auto;
     
 }
 .fline{
@@ -330,4 +339,30 @@ footer{
 
 
     
+}
+
+@media screen and (max-width: 991px) {
+    #navbarSupportedContent{
+        padding-top: 2rem;
+    }
+    #navbarSupportedContent > ul > li.nav-item.dropdown > a > button{
+        width: 250px;
+    }
+    #navbarSupportedContent > ul > li:nth-child(1) > a > button{
+        background: transparent;
+    
+        border: 3px solid #7ECCD7;
+        color: #FFFFFF;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 851px) {
+
+#navbarSupportedContent > ul > li.nav-item.dropdown > a > button{
+    width: 150px;
+}
+#navbarSupportedContent > ul > li:nth-child(1) > a > button{
+    width: 150px;
+}
 }

@@ -11,6 +11,24 @@ h1{
     line-height: 5.25rem;
     color: #FFFFFF;
 }
+body > section.first > div > header > nav > button > span > img{
+    width: 16px;
+}
+
+#navbarSupportedContent > ul > li:nth-child(1) > a > button{
+    background: transparent;
+
+    border: 3px solid #7ECCD7;
+}
+
+
+
+#navbarSupportedContent > ul{
+float: right;
+}
+body > section.first > div > header > nav > button{
+    color: white;
+}
 h2{
     font-family: Figtree;
     font-weight: 800;
@@ -107,7 +125,7 @@ button{
     border: 3px solid #7ECCD7;
 }
 .first-info{
-    padding-block: 140px 180px;
+    padding-block: 50px 180px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -701,5 +719,32 @@ footer{
 @media screen and (max-width: 854px) {
     .nav-items button{
         padding: 8px 5px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+        #navbarSupportedContent{
+            padding-top: 2rem;
+        }
+        #navbarSupportedContent > ul > li.nav-item.dropdown > a > button{
+            width: 250px;
+        }
+        #navbarSupportedContent > ul > li:nth-child(1) > a > button{
+            background: transparent;
+        
+            border: 3px solid #7ECCD7;
+            color: #FFFFFF;
+            width: 250px;
+        }
+}
+
+@media screen and (max-width: 851px) {
+
+    #navbarSupportedContent > ul > li.nav-item.dropdown > a > button{
+        width: 150px;
+    }
+    #navbarSupportedContent > ul > li:nth-child(1) > a > button{
+        width: 150px;
     }
 }
