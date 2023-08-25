@@ -19,6 +19,25 @@ text-align: center;
 margin: auto;
 width: 100%;
 }
+
+body > section.first > div > header > nav > button > span > img{
+    width: 16px;
+}
+
+
+#navbarSupportedContent > ul > li:nth-child(1) > a > button{
+    background: transparent;
+
+    border: 3px solid #7ECCD7;
+}
+
+
+#navbarSupportedContent > ul{
+float: right;
+}
+body > section.first > div > header > nav > button{
+    color: white;
+}
 body > section.techs > ul > li{
     font-family: Figtree;
     font-size: 2.625rem;
@@ -310,4 +329,30 @@ footer{
     a img[src*="letlogo"]{
         height: 22px;
     }
+}
+
+@media screen and (max-width: 991px) {
+    #navbarSupportedContent{
+        padding-top: 2rem;
+    }
+    #navbarSupportedContent > ul > li.nav-item.dropdown > a > button{
+        width: 250px;
+    }
+    #navbarSupportedContent > ul > li:nth-child(1) > a > button{
+        background: transparent;
+    
+        border: 3px solid #7ECCD7;
+        color: #FFFFFF;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 851px) {
+
+#navbarSupportedContent > ul > li.nav-item.dropdown > a > button{
+    width: 150px;
+}
+#navbarSupportedContent > ul > li:nth-child(1) > a > button{
+    width: 150px;
+}
 }

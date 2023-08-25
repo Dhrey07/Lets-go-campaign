@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
+  />
     <link rel="stylesheet" href="request.css" />
     <title>Request help</title>
   </head>
@@ -10,127 +16,169 @@
     <!-- HEADER -->
     <section class="first">
       <div class="first-container">
-        <div class="header">
-          <a href="index.html"><img src="images/letlogo.svg" alt="#" /></a>
-          <nav class="nav-items">
-            <button class="transparent" onclick="location.href='request.html'">
-              REQUEST HELP
+        <header class="py-2">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+              <img src="images/letlogo.svg" alt="logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span><img src="./images/hambugger.png" alt="" /></span>
             </button>
-            <button onclick="location.href='Donate.html'">DONATE NOW</button>
+
+            <div
+              class="collapse navbar-collapse justify-content-between"
+              id="navbarSupportedContent"
+            >
+              <div></div>
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a href="#" class="nav-link link-light"
+                    ><button
+                      class="transparent"
+                      onclick="location.href='request.html'"
+                    >
+                      REQUEST HELP
+                    </button></a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link link-light"
+                    ><button onclick="location.href='Donate.html'">
+                      DONATE NOW
+                    </button></a
+                  >
+                </li>
+              </ul>
+            </div>
           </nav>
-        </div>
+        </header>
       </div>
     </section>
     <!-- FORM -->
     <section class="second-container" id="contact_form">
       <div class="second-cont">
-        <div class="sec-cont-inf">
-          <h1>Request Help</h1>
-          <p>
-            Are you in need of urgent help? <br />
-            Please reach out to us, we’ve got you!
-          </p>
-          <form action="https://formspree.io/f/xjvqgjrz" method="post">
-            <div class="second-cont1">
-              <div id="sec1" class="mar-top">
-                <label for="Name">Name</label>
-                <input
-                  name="fullname"
-                  id="f_name"
-                  type="text"
-                  placeholder="Enter Name"
-                  required
-                />
-              </div>
-              <div id="sec1" class="mar-top">
-                <label for="email"> Email</label>
-                <input
-                  name="email"
-                  id="email_id"
-                  type="email"
-                  placeholder="Enter email address"
-                  required
-                />
-              </div>
-              <div id="sec1" class="mar-top">
-                <label for="phone_number"> Phone Number</label>
-                <input
-                  name="number"
-                  id="phone_number"
-                  type="tel"
-                  placeholder="Enter phone number"
-                  required
-                  maxlength="11"
-                />
-              </div>
-              <div id="sec1" class="mar-top">
-                <label for="address"> Address</label>
-                <input
-                  name="address"
-                  id="address"
-                  type="text"
-                  placeholder="Enter address"
-                  required
-                />
-              </div>
-              <label for="referrer">Category </label>
-              <select id="choice" name="choice" class="mar-top">
-                <option>(Select Category)</option>
-                <option>Education</option>
-                <option>Health</option>
-                <option>Technology</option>
-                <option>Security</option>
-                <option>Youth Empowerment</option>
-              </select>
-
-              <div id="sec1" class="mar-top">
-                <label for="email">
-                  What’s your story and how can we help?</label
-                >
-                <textarea
-                  name="message"
-                  id="message"
-                  placeholder="Enter comment"
-                  required
-                ></textarea>
-              </div>
-              <button type="submit">REQUEST HELP</button>
+        <h1>Request Help</h1>
+        <p>
+          Are you in need of urgent help? <br />
+          Please reach out to us, we’ve got you!
+        </p>
+        <form action="https://formspree.io/f/xjvqgjrz" method="post">
+          <div class="second-cont1">
+            <div id="sec1" class="mar-top">
+              <label for="Name">Name</label>
+              <input
+                name="fullname"
+                id="f_name"
+                type="text"
+                placeholder="Enter Name"
+                required
+              />
             </div>
-          </form>
-        </div>
+            <div id="sec1" class="mar-top">
+              <label for="email"> Email</label>
+              <input
+                name="email"
+                id="email_id"
+                type="email"
+                placeholder="Enter email address"
+                required
+              />
+            </div>
+            <div id="sec1" class="mar-top">
+              <label for="phone_number"> Phone Number</label>
+              <input
+                name="number"
+                id="phone_number"
+                type="tel"
+                placeholder="Enter phone number"
+                required
+                maxlength="11"
+              />
+            </div>
+            <div id="sec1" class="mar-top">
+              <label for="address"> Address</label>
+              <input
+                name="address"
+                id="address"
+                type="text"
+                placeholder="Enter address"
+                required
+              />
+            </div>
+            <label for="referrer">Category </label>
+            <select id="choice" name="choice" class="mar-top">
+              <option>(Select Category)</option>
+              <option>Education</option>
+              <option>Health</option>
+              <option>Technology</option>
+              <option>Security</option>
+              <option>Youth Empowerment</option>
+            </select>
+
+            <div id="sec1" class="mar-top">
+              <label for="email"> What’s your story and how can we help?</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Enter comment"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">REQUEST HELP</button>
+          </div>
+        </form>
       </div>
     </section>
 
     <footer>
-      <div class="foot">
-        <div class="foooooot">
-          <div class="footer-details">
-            <a href="index.html"><img src="images/letlogo.svg" alt="#" /></a>
-            <div class="socials">
-              <a
-                target="_blank"
-                href="https://twitter.com/Letsgo_campaign?t=Mltyj9Myd613fjO2rk6lPQ&s=09"
-                ><img src="images/twitte.png" alt="#"
-              /></a>
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/company/let-s-go-campaign/"
-                ><img src="images/linki.png" alt="#"
-              /></a>
-              <a
-                target="_blank"
-                href="https://instagram.com/letsgo_campaign?igshid=ZDc4ODBmNjlmNQ=="
-                ><img src="images/insta.png" alt="#"
-              /></a>
-              <img src="images/medium.png" alt="#" />
-            </div>
-          </div>
-          <div class="fline"></div>
-          <p class="small-things">
-            © Copyright 2023, All Rights Reserved by Let’s Go Campaign
-          </p>
+      <div class="footer-details">
+        <a href="index.html"><img src="images/letlogo.svg" alt="#" /></a>
+        <div class="socials">
+          <a
+            target="_blank"
+            href="https://twitter.com/Letsgo_campaign?t=Mltyj9Myd613fjO2rk6lPQ&s=09"
+            ><img src="images/twitte.png" alt="#"
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/company/let-s-go-campaign/"
+            ><img src="images/linki.png" alt="#"
+          /></a>
+          <a
+            target="_blank"
+            href="https://instagram.com/letsgo_campaign?igshid=ZDc4ODBmNjlmNQ=="
+            ><img src="images/insta.png" alt="#"
+          /></a>
+          <img src="images/medium.png" alt="#" />
         </div>
       </div>
+      <div class="fline"></div>
+      <p class="small-things">
+        © Copyright 2023, All Rights Reserved by Let’s Go Campaign
+      </p>
     </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
   </body>
 </html>
