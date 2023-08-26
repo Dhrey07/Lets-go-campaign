@@ -161,6 +161,11 @@ label{
     display: flex;
     gap: 8px;
 }
+.flex--it{
+    display: flex;
+    gap: 0.5rem;
+}
+
 
 /* FOOTER */
 footer{
