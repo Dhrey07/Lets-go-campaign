@@ -7,14 +7,14 @@
 h1{
     font-family: Figtree;
     font-weight: 800;
-    font-size: 4.375rem;
+    font-size: 3.375rem;
     line-height: 5.25rem;
     color: #7ECCD7;
 }
 h2{
     font-family: Figtree;
     font-weight: 800;
-    font-size: 2.625rem;
+    font-size: 2.225rem;
     line-height: 3.125rem;
     color: #121212;
 }
@@ -38,7 +38,7 @@ body > section.first > div > header > nav > button{
 h3{
     font-family: Figtree;
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     line-height: 2.25rem;
     color: #121212;
 }
@@ -87,7 +87,7 @@ label{
 }
 .first-container{
     max-width: 1440px;
-    padding-inline: 4%;
+    padding-inline: 6%;
     display: block;
     margin: auto;
     
@@ -122,8 +122,8 @@ label{
     margin: auto;
     display: flex;
     gap: 4.4rem;
-    padding-block: 0rem 7.5rem;
-    padding-inline: 2rem;
+    padding-block: 0rem 0.1rem;
+    padding-inline: 6%;
 }
 .second-cont img{
     margin-top: 3rem;
@@ -138,13 +138,13 @@ label{
 .third-container{
     max-width: 1440px;
     margin: auto;
-    padding-inline: 10%;
+    padding-inline: 6%;
 }
 .pay1{
     display: block;
 }
 .pay1 *{
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.8rem;
 }
 .pay1:not:first-child{
     margin-left: 3rem;

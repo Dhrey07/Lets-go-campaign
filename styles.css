@@ -182,7 +182,7 @@ img[src*="line.svg"]{
     margin: auto;
     align-items: flex-end;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 16px;
 }
 .us-left button{

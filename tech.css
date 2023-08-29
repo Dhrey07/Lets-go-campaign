@@ -7,14 +7,14 @@
 h1{
     font-family: Figtree;
     font-weight: 800;
-    font-size: 4.375rem;
+    font-size: 3.5rem;
     line-height: 5.25rem;
     color: #7ECCD7;
 }
 h2{
     font-family: Figtree;
     font-weight: 700;
-    font-size: 2.625rem;
+    font-size: 2.3rem;
     line-height: 3.25rem;
     color: #0a0a0a;
 }
@@ -40,7 +40,7 @@ body > section.first > div > header > nav > button{
 h3{
     font-family: Figtree;
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     line-height: 2.25rem;
     color: #000000;
 }
@@ -92,7 +92,7 @@ label{
 }
 .first-container{
     max-width: 1440px;
-    padding-inline: 4%;
+    padding-inline: 6%;
     display: block;
     margin: auto;
     
@@ -115,7 +115,7 @@ label{
 .techs{
     max-width: 1440px;
     padding-block: 3rem;
-    padding-inline: 3rem;
+    padding-inline: 6%;
     margin: auto;
 }
 img[src*="Techmn"]{
@@ -123,9 +123,9 @@ img[src*="Techmn"]{
 }
 .row{
     display: flex;
-    gap: 2rem;
+    gap: 8px;
 }
-.row{
+.flex-it{
     display: flex;
     gap: 8px;
 }
