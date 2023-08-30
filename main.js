@@ -35,8 +35,8 @@ function scrollr() {
 const newsContainer = document.querySelector('.news-container');
 
 // Replace 'YOUR_API_KEY' with your actual API key
-const apiKey = 'b1ceb852918642249d76c1de446fce9f';
-const apiUrl = `https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=b1ceb852918642249d76c1de446fce9f`;
+const apiKey = "b1ceb852918642249d76c1de446fce9f";
+const apiUrl = "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=b1ceb852918642249d76c1de446fce9f";
 
 let newsData = [];
 let currentSlide = 0;
