@@ -21,7 +21,50 @@ body > section.first > div > header > nav > button > span > img{
     border: 3px solid #7ECCD7;
 }
 
+/* Your existing CSS styles */
 
+.news-feed {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .news-item {
+    width: 400px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .news-square {
+    width:8400px;
+    height: 800px;
+    overflow: hidden;
+  }
+  #newsFeed > div:nth-child(1) > div.news-image > img,#newsFeed > div:nth-child(2) > div.news-image > img,#newsFeed > div:nth-child(3) > div.news-image > img{
+    width: 100%; /* Set the image width to fill the square container */
+    height: 100%; /* Set the image height to fill the square container */
+    object-fit: fit;
+  }
+  
+  .news-content {
+    padding: 10px;
+  }
+  
+  .news-content h2 {
+    margin-top: 0;
+  }
+  
+  .news-content p {
+    margin: 5px 0;
+  }
+  
+  .news-content a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
 
 #navbarSupportedContent > ul{
 float: right;
