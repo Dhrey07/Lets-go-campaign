@@ -24,27 +24,34 @@ body > section.first > div > header > nav > button > span > img{
 /* Your existing CSS styles */
 
 .news-feed {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1300px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
   }
   
+  .news-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
   .news-item {
-    width: 400px;
+    width: 600px;
     border: 1px solid #ccc;
-    margin-bottom: 20px;
+    margin-right: 20px;
     background-color: #f8f8f8;
   }
   
   .news-square {
-    width:8400px;
-    height: 800px;
+    width: 600px;
+    height: 400px;
     overflow: hidden;
   }
-  #newsFeed > div:nth-child(1) > div.news-image > img,#newsFeed > div:nth-child(2) > div.news-image > img,#newsFeed > div:nth-child(3) > div.news-image > img{
-    width: 100%; /* Set the image width to fill the square container */
-    height: 100%; /* Set the image height to fill the square container */
+  
+  .news-square img {
+    width: 100%;
+    height: 100%;
     object-fit: fit;
   }
   
@@ -64,6 +71,7 @@ body > section.first > div > header > nav > button > span > img{
     color: #007bff;
     text-decoration: none;
   }
+  
   
 
 #navbarSupportedContent > ul{

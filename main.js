@@ -30,34 +30,61 @@ function scrollr() {
     RightMove.scrollBy(350, 0)
 }
 
-const newsFeedDiv = document.getElementById('newsFeed');
+const newsContainer = document.querySelector('.news-container');
 
 // Replace 'YOUR_API_KEY' with your actual API key
 const apiKey = 'b1ceb852918642249d76c1de446fce9f';
 const apiUrl = `https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=${apiKey}`;
-// Fetch news data from the News API
-fetch(apiUrl)
-  .then(response => response.json())
-  .then(data => {
-    const articles = data.articles.slice(0, 3); // Only take the top 3 articles
 
-    // Process the news data and update the newsFeedDiv content
-    const newsHTML = articles.map(article => `
-      <div class="news-item">
-        <div class="news-image">
-          <img src="${article.urlToImage}" alt="News Image">
-        </div>
-        <div class="news-content">
-          <h2>${article.title}</h2>
-          <p>${article.description}</p>
-          <a href="${article.url}" target="_blank">Read more</a>
-        </div>
+let newsData = [];
+let currentSlide = 0;
+let slideInterval;
+
+function fetchNews() {
+  fetch(apiUrl)
+    .then(response => response.json())
+    .then(data => {
+      newsData = data.articles.slice(0, 16);
+      displayNews();
+      startSlideInterval();
+    })
+    .catch(error => {
+      console.error('Error fetching news data:', error);
+    });
+}
+
+function displayNews() {
+  newsContainer.innerHTML = newsData.map(article => `
+    <div class="news-item">
+      <div class="news-square">
+        <img src="${article.urlToImage}" alt="News Image">
       </div>
-    `).join('');
+      <div class="news-content">
+        <h2>${article.title}</h2>
+        <p>${article.description}</p>
+        <a href="${article.url}" target="_blank">Read more</a>
+      </div>
+    </div>
+  `).join('');
+}
 
-    // Update the content of the newsFeedDiv
-    newsFeedDiv.innerHTML = newsHTML;
-  })
-  .catch(error => {
-    console.error('Error fetching news data:', error);
-  });
+function startSlideInterval() {
+  slideInterval = setInterval(() => {
+    currentSlide = (currentSlide + 1) % newsData.length;
+    moveSlide();
+  }, 5000); // Change slide every 5 seconds
+}
+
+function moveSlide() {
+  const slideWidth = document.querySelector('.news-item').offsetWidth;
+  newsContainer.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+}
+
+function stopSlideInterval() {
+  clearInterval(slideInterval);
+}
+
+newsContainer.addEventListener('mouseenter', stopSlideInterval);
+newsContainer.addEventListener('mouseleave', startSlideInterval);
+
+fetchNews();
