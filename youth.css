@@ -7,7 +7,7 @@
 h1{
     font-family: Figtree;
     font-weight: 800;
-    font-size: 4.375rem;
+    font-size: 3.55rem;
     line-height: 5.25rem;
     color: #7ECCD7;
     padding: 2rem 0 ;
@@ -149,6 +149,13 @@ label{
     padding-inline: 3rem;
     margin: auto;
 }
+.flex{
+    display: flex;
+    gap: 0.5rem;
+}
+.flex h2{
+    margin-right: 1rem;
+}
 .row{
     display: flex;
     gap: 2rem;
@@ -163,7 +170,7 @@ label{
 /* FOOTER */
 footer{
     background-color: #313131;
-    padding-block: 97px 49px;
+    padding-block: 60px 30px;
 }
 .footer-details{
     max-width: 1440px;
@@ -210,11 +217,11 @@ footer{
     }
     h3{
         font-family: Figtree;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 1.1rem;
         line-height: 1.625rem;
         color: #121212;
-        text-align: ;
+        text-align: justify;
     }
     h4{
         font-family: Figtree;

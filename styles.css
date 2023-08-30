@@ -238,10 +238,13 @@ img[src*="tag"]{
 }
 .flex-it{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 1rem;
     padding-top: 10px;
     padding-left: 18px;
+}
+img[src*="circle"]{
+    margin-top: 0.3rem;
 }
 img[src*="p1"],
 img[src*="Education"],
