@@ -298,6 +298,12 @@ img[src*="youth"]
     width: 100%;
 }
 
+.news img{
+    width: 362px;
+    height: 251px;
+    border-radius: 10px;
+}
+
 /* THIRD CONTAINER */
 .third{
     background-image: url(images/sec3-bck.png) ;
