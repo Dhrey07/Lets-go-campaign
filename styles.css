@@ -30,6 +30,40 @@ body > section.first > div > header > nav > button > span > img{
 }
 
 
+.slider {
+    height: 550px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    max-width: 1000px;
+  }
+  /* .slider{
+    animation-play-state: paused;
+  } */
+  
+  .slider .slide-track {
+    animation: scroll 60s linear infinite;
+    display: flex;
+    width: calc(550px * 16);
+  }
+  
+  @keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-350px * 9));
+    }
+  }
+  
+  .slider .slide {
+    height: 350px;
+    width:  390px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 #navbarSupportedContent > ul{
 float: right;
 }
@@ -386,6 +420,7 @@ img[src*="youth"]
 .news h4{
     font-weight: 700;
     font-size: 18px;
+    color: black;
     line-height: 22px;
     max-width: 334px;
 }
