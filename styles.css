@@ -297,7 +297,10 @@ img[src*="youth"]
 {
     width: 100%;
 }
-
+.slide-track a{
+    text-decoration: none;
+    color: black;
+}
 .news img{
     width: 362px;
     height: 251px;
