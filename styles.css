@@ -269,7 +269,7 @@ img[src*="tag"]{
     border: 2px solid rgba(221, 221, 221, 0.6);
 }
 .tech:hover{
-    transform: translateY(-0.5rem)
+    transform: translateY(-0.5rem);
 }
 .tech h3{
     color: black;
