@@ -140,6 +140,9 @@ button{
 }
 .lend{
  text-align: left;
+ display: flex;
+ gap: 5px;
+ align-items: center;
 
 }
 .first-infor{
