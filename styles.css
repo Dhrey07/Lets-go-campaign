@@ -68,7 +68,7 @@ body > section.first > div > header > nav > button > span > img{
       transform: translateX(0);
   }
   100% {
-      transform: translateX(calc(-350px * 9));
+      transform: translateX(calc(-350px * 14));
   }
 } 
 
