@@ -25,7 +25,7 @@ body > section.first > div > header > nav > button > span > img{
     display: flex;
     justify-content: space-between;
     gap: 1rem;
-    padding: 0  1rem 0 0;
+    padding: 0  0.3rem 0 0;
 }
 
 .news .inner-info img {
