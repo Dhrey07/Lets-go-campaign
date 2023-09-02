@@ -51,14 +51,14 @@ body > section.first > div > header > nav > button > span > img{
   margin: auto;
   overflow: hidden;
   position: relative;
-  max-width: 1000px;
+  /* max-width: 1000px; */
 }
 /* .slider{
   animation-play-state: paused;
 } */
 
 .slider .slide-track {
-  animation: scroll 60s linear infinite;
+  animation: scroll 75s linear infinite;
   display: flex;
   width: calc(550px * 16);
 }
