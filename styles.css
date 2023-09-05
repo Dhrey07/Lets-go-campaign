@@ -45,6 +45,9 @@ body > section.first > div > header > nav > button > span > img{
     align-items: center;
     gap: 2rem;
 }
+.foreach{
+    padding: 4rem 0 ;
+}
 
 .slider {
   height: 550px;
