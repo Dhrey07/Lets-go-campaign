@@ -45,9 +45,7 @@ body > section.first > div > header > nav > button > span > img{
     align-items: center;
     gap: 2rem;
 }
-.foreach{
-    padding: 4rem 0 ;
-}
+
 
 .slider {
   height: 550px;
@@ -66,12 +64,16 @@ body > section.first > div > header > nav > button > span > img{
   width: calc(550px * 16);
 }
 
+.slider .slide-track:hover {
+    animation-play-state: paused; /* Pause the animation when hovering */
+  }
+
  @keyframes scroll {
   0% {
       transform: translateX(0);
   }
   100% {
-      transform: translateX(calc(-350px * 14));
+      transform: translateX(calc(-350px * 10));
   }
 } 
 
