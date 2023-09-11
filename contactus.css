@@ -345,6 +345,12 @@ footer{
     a img[src*="letlogo"]{
         height: 22px;
     }
+    .tc{
+        gap: 3rem;
+    }
+    footer{
+        padding-block: 30px;
+    }
 
 
     

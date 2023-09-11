@@ -146,7 +146,7 @@ label{
     
 }
 .mar-top{
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
 }
 #sec1 input::placeholder{
     /* padding-left: 1rem; */
@@ -177,7 +177,7 @@ textarea {
 }
 select {
     display: block;
-    width: 55%;
+    width: 100%;
     /* max-width: 46.25rem; */
     margin: 10px 0 0 0;
     padding-block: 1.2rem;
@@ -337,6 +337,9 @@ footer{
     .payment img, 
     .second-cont img{
         width: 100%;
+    }
+    #sec1 input, select{
+        padding-block: 0.6rem;
     }
     a img[src*="letlogo"]{
         height: 22px;
