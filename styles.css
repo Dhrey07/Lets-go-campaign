@@ -48,7 +48,7 @@ body > section.first > div > header > nav > button > span > img{
 
 
 .slider {
-  height: 550px;
+  /* height: 550px; */
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -78,7 +78,7 @@ body > section.first > div > header > nav > button > span > img{
 } 
 
 .slider .slide {
-  height: 350px;
+  height: 60px;
   width:  390px;
   display: flex;
   align-items: center;
@@ -241,7 +241,7 @@ img[src*="line.svg"]{
 }
 
 .Us{
-    padding-inline: 2%;
+    padding-inline: 4%;
     margin: auto;
     align-items: flex-end;
     display: flex;
@@ -322,8 +322,8 @@ img[src*="youth"]
     color: black;
 }
 .news img{
-    width: 262px;
-    height: 151px;
+    /* width: 262px; */
+    height: 60px;
     border-radius: 10px;
 }
 
@@ -398,6 +398,9 @@ img[src*="youth"]
     padding-left: 5px;
 
 }
+.foreach button{
+    margin: auto;
+}
 /* FOURTH */
 .Fourth{
     display: flex;
@@ -414,6 +417,7 @@ img[src*="youth"]
 }
 .fourth-container img{
     border-radius: 6px;
+    max-width: 100%;
 }
 .fourth-container .lend{
     margin-bottom: 10px;
@@ -637,9 +641,12 @@ footer{
 
     text-align: center;
 }
-@media screen and (min-width:1200px) and (max-width:1445px) {
+@media screen and (min-width:1050px) and (max-width:1445px) {
     .first{
         height: 100vh;
+    }
+    .first-info{
+        padding-block: 120px 180px;
     }
 }
 @media screen and (max-width: 854px) {
@@ -742,6 +749,7 @@ footer{
     }
     .Us{
         flex-wrap: wrap;
+        padding-inline: 2%;
     }
     .us-right{
         justify-content: center;
@@ -770,6 +778,9 @@ footer{
     .tc-R {
         padding-inline: 20px;
     }
+    .slider .slide{
+        width: 130px;
+    }
     /* FOURTH CONTAINER */
     .fourth-container .lend {
         margin-bottom: 20px;
@@ -778,8 +789,11 @@ footer{
         gap: 1px;
         margin-bottom: 20px;
     }
+    .news img{
+        height: 40px;
+    }
     .mission-info {
-        margin-top: 22px;
+        margin-top: 11px;
     }
     .mission-info p {
         margin-bottom: 1rem;
@@ -788,7 +802,7 @@ footer{
         line-height: 22px;
     }
     .fourth-container {
-        padding-block: 50px;
+        padding-block: 20px;
     }
     /* FIFTH CONTAINER */
     .fifth-container {
