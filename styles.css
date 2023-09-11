@@ -837,7 +837,7 @@ footer{
 }
 
 @media screen and (max-width: 854px) {
-    body > section.Fourth > div > div.mission > div > img{
+    body > section.Fourth > div > div.mission > div > a > img{
         max-width: 300px;
         margin: auto;
     }
