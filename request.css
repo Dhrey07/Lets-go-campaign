@@ -87,9 +87,11 @@ label{
     background-position: center;
     
 }
+header{
+    margin-inline: 4%;
+}
 .first-container{
     max-width: 1440px;
-    padding-inline: 4%;
     display: block;
     margin: auto;
     
@@ -119,13 +121,13 @@ label{
 .second-container{
     background: #ffffff;
 }
-.second-cont{
+.secondd{
     max-width: 1440px;
     margin: auto;
+}
+.second-cont{
     padding-block: 0rem 7.5rem;
-
-    
-    padding-inline: 2rem;
+    margin-inline: 4%;
 }
 
 #sec1{

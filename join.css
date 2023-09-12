@@ -92,10 +92,11 @@ label{
 }
 .first-container{
     max-width: 1440px;
-    padding-inline: 4%;
     display: block;
-    margin: auto;
-    
+    margin: auto; 
+}
+header{
+    margin-inline: 4%;
 }
 .header{
     display: flex;
@@ -122,13 +123,14 @@ label{
 .second-container{
     background: #ffffff;
 }
-.second-cont{
+
+.secondd{
     max-width: 1440px;
     margin: auto;
+}
+.second-cont{
     padding-block: 0rem 7.5rem;
-
-    
-    padding-inline: 2rem;
+    margin-inline: 4%;
 }
 
 #sec1{
@@ -177,7 +179,7 @@ textarea {
 }
 select {
     display: block;
-    width: 100%;
+    width: 57%;
     /* max-width: 46.25rem; */
     margin: 10px 0 0 0;
     padding-block: 1.2rem;
@@ -195,7 +197,7 @@ select {
 /* FOOTER */
 footer{
     background-color: #313131;
-    padding-block: 97px 49px;
+    padding-block: 70px 49px;
 }
 .footer-details{
     max-width: 1440px;

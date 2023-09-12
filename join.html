@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-    crossorigin="anonymous"
-  />
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="join.css" />
     <title>Join Team</title>
   </head>
@@ -63,115 +63,117 @@
     </section>
     <!-- FORM -->
     <section class="second-container" id="contact_form">
-      <div class="second-cont">
-        <h1>Join Team</h1>
-        <p>
-          Want to join the inner circle responsible for organizing and <br />
-          holding together Let’s Go Campaign? <br />
-          <strong>Send us an application.</strong>
-        </p>
-        <form action="https://formspree.io/f/mqkvewlr" method="post">
-          <div class="second-cont1">
-            <div class="sectop">
-              <div id="sec1">
-                <label for="Name">Name</label>
+      <div class="secondd">
+        <div class="second-cont">
+          <h1>Join Team</h1>
+          <p>
+            Want to join the inner circle responsible for organizing and <br />
+            holding together Let’s Go Campaign? <br />
+            <strong>Send us an application.</strong>
+          </p>
+          <form action="https://formspree.io/f/mqkvewlr" method="post">
+            <div class="second-cont1">
+              <div class="sectop">
+                <div id="sec1">
+                  <label for="Name">Name</label>
+                  <input
+                    name="fullname"
+                    id="f_name"
+                    type="text"
+                    placeholder="Enter Name"
+                    required
+                  />
+                </div>
+              </div>
+              <div id="sec1" class="mar-top">
+                <label for="email"> Email</label>
                 <input
-                  name="fullname"
-                  id="f_name"
-                  type="text"
-                  placeholder="Enter Name"
+                  name="email"
+                  id="email_id"
+                  type="email"
+                  placeholder="Enter email address"
                   required
                 />
               </div>
-            </div>
-            <div id="sec1" class="mar-top">
-              <label for="email"> Email</label>
-              <input
-                name="email"
-                id="email_id"
-                type="email"
-                placeholder="Enter email address"
-                required
-              />
-            </div>
-            <div id="sec1" class="mar-top">
-              <label for="phone_number"> Phone Number</label>
-              <input
-                name="phonenumber"
-                id="phone_number"
-                type="tel"
-                placeholder="Enter phone number"
-                required
-                maxlength="11"
-              />
-            </div>
-            <div id="sec1" class="mar-top">
-              <label for="address"> Address</label>
-              <input
-                name="address"
-                id="address"
-                type="text"
-                placeholder="Enter address"
-                required
-              />
-            </div>
-            <div id="sec1" class="mar-top">
-              <label for="Shirt-Size"> Shirt Size</label>
-              <select id="choice" name="choice" class="mar-top">
-                <option>(Select Category)</option>
-                <option>Small</option>
-                <option>Large</option>
-                <option>XL</option>
-                <option>XXL</option>
-                <option>XXXL</option>
-              </select>
-            </div>
-            <div id="sec1" class="mar-top">
-              <label for="Occupation"> Occupation</label>
-              <input
-                name="occupation"
-                id="Occupation"
-                type="text"
-                placeholder="Enter Occupation"
-                required
-              />
-            </div>
-            <div id="sec1" class="mar-top">
-              <label for="Occupation-p"> Occupation/Place of work</label>
-              <input
-                name="Occupationplace"
-                id="Occupation-p"
-                type="text"
-                placeholder="Enter details"
-                required
-              />
-            </div>
+              <div id="sec1" class="mar-top">
+                <label for="phone_number"> Phone Number</label>
+                <input
+                  name="phonenumber"
+                  id="phone_number"
+                  type="tel"
+                  placeholder="Enter phone number"
+                  required
+                  maxlength="11"
+                />
+              </div>
+              <div id="sec1" class="mar-top">
+                <label for="address"> Address</label>
+                <input
+                  name="address"
+                  id="address"
+                  type="text"
+                  placeholder="Enter address"
+                  required
+                />
+              </div>
+              <div id="sec1" class="mar-top">
+                <label for="Shirt-Size"> Shirt Size</label>
+                <select id="choice" name="choice" class="mar-top">
+                  <option>(Select Category)</option>
+                  <option>Small</option>
+                  <option>Large</option>
+                  <option>XL</option>
+                  <option>XXL</option>
+                  <option>XXXL</option>
+                </select>
+              </div>
+              <div id="sec1" class="mar-top">
+                <label for="Occupation"> Occupation</label>
+                <input
+                  name="occupation"
+                  id="Occupation"
+                  type="text"
+                  placeholder="Enter Occupation"
+                  required
+                />
+              </div>
+              <div id="sec1" class="mar-top">
+                <label for="Occupation-p"> Occupation/Place of work</label>
+                <input
+                  name="Occupationplace"
+                  id="Occupation-p"
+                  type="text"
+                  placeholder="Enter details"
+                  required
+                />
+              </div>
 
-            <div id="sec1" class="mar-top">
-              <label for="comment">
-                Why do you want to join the LGC team?</label
-              >
-              <textarea
-                name="Why Join Us?"
-                id="message"
-                placeholder="Enter comment"
-                required
-              ></textarea>
+              <div id="sec1" class="mar-top">
+                <label for="comment">
+                  Why do you want to join the LGC team?</label
+                >
+                <textarea
+                  name="Why Join Us?"
+                  id="message"
+                  placeholder="Enter comment"
+                  required
+                ></textarea>
+              </div>
+              <div id="sec1" class="mar-top">
+                <label for="comment">
+                  What impact do you think you can have to the LGC team?</label
+                >
+                <textarea
+                  name="Impact to the Team"
+                  id="message"
+                  placeholder="Enter comment"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit">JOIN TEAM</button>
             </div>
-            <div id="sec1" class="mar-top">
-              <label for="comment">
-                What impact do you think you can have to the LGC team?</label
-              >
-              <textarea
-                name="Impact to the Team"
-                id="message"
-                placeholder="Enter comment"
-                required
-              ></textarea>
-            </div>
-            <button type="submit">JOIN TEAM</button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </section>
   </body>
@@ -180,9 +182,21 @@
     <div class="footer-details">
       <img src="images/letlogo.svg" alt="#" />
       <div class="socials">
-        <a target="_blank" href="https://twitter.com/Letsgo_campaign?t=Mltyj9Myd613fjO2rk6lPQ&s=09"><img src="images/twitte.png" alt="#" /></a>
-        <a target="_blank" href="https://www.linkedin.com/company/let-s-go-campaign/"><img src="images/linki.png" alt="#" /></a>
-        <a target="_blank" href="https://instagram.com/letsgo_campaign?igshid=ZDc4ODBmNjlmNQ=="><img src="images/insta.png" alt="#" /></a>
+        <a
+          target="_blank"
+          href="https://twitter.com/Letsgo_campaign?t=Mltyj9Myd613fjO2rk6lPQ&s=09"
+          ><img src="images/twitte.png" alt="#"
+        /></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/company/let-s-go-campaign/"
+          ><img src="images/linki.png" alt="#"
+        /></a>
+        <a
+          target="_blank"
+          href="https://instagram.com/letsgo_campaign?igshid=ZDc4ODBmNjlmNQ=="
+          ><img src="images/insta.png" alt="#"
+        /></a>
         <img src="images/medium.png" alt="#" />
       </div>
     </div>
@@ -192,18 +206,18 @@
     </p>
   </footer>
   <script
-  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-  crossorigin="anonymous"
-></script>
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
 </html>
