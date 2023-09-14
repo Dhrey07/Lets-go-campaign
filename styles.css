@@ -83,8 +83,8 @@ body > section.first > div > header > nav > button > span > img{
 } 
 
 .slider .slide {
-  height: 100px;
-  width:  250px;
+  height: 150px;
+  width:  300px;
   display: flex;
   align-items: center;
   justify-content: center;
