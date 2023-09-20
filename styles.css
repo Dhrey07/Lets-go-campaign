@@ -158,7 +158,7 @@ button{
     display: block;
     height: 50px;
     margin: auto;
-    bottom: 5%;
+    top: 42%;
 }
 
 /* FIRST CONTAINER */
@@ -661,6 +661,9 @@ footer{
     }
 }
 @media screen and (max-width: 854px) {
+    #preloader{
+        background-size: 35%;
+    }
     #preloader img{
         height: 30px;
         /* padding-top: 40%; */
@@ -731,8 +734,8 @@ footer{
     .header {
         padding-block: 2.2rem 0rem;
     }
-    .header img[src*="letlogo"]{
-        height: 32px;
+    a img[src*="letlogo.svg"]{
+        height: 22px;
     }
     .nav-items {
         gap: 4px;
@@ -740,6 +743,7 @@ footer{
     .nav-items > .transparent {
         border: 1.5px solid #7ECCD7;
     }
+    
     /* FIRST CONTAINERF */
     .first-container{
         padding-inline: 3%;
@@ -821,6 +825,12 @@ footer{
     }
     .fifth-container h2 {
         margin-block: 12px 25px;
+    }
+    footer{
+        padding-block: 30px 40px;
+    }
+    .fline{
+        margin-block: 40px 30px;
     }
 }
 @media screen and (max-width: 854px) {

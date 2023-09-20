@@ -179,9 +179,9 @@ textarea {
 }
 select {
     display: block;
-    width: 57%;
+    width: 100%;
+    border-radius: 6px;
     /* max-width: 46.25rem; */
-    margin: 10px 0 0 0;
     padding-block: 1.2rem;
     padding-inline: 1.5rem;
     min-height: 2em;
