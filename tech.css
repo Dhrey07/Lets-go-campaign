@@ -135,7 +135,8 @@ img[src*="Techmn"]{
     gap: 8px;
     margin-block: 2.5rem;
 }
-.flex img{
+
+img[src*="Untitled-4 1"]{
     background-color: #000000;
     padding: 10px;
     border-radius: 8px;
@@ -183,6 +184,7 @@ footer{
         font-size: 2.1rem;
         line-height: 2.2rem;
         color: #121212;
+        margin-top: 1rem;
     }
     h2{
         font-family: Figtree;
@@ -190,6 +192,7 @@ footer{
         font-size: 1.5rem;
         line-height: 2rem;
         color: #121212;
+        margin: 0px;
     }
     h3{
         font-family: Figtree;
@@ -294,6 +297,22 @@ footer{
     .payment img, 
     .second-cont img{
         width: 100%;
+    }
+    .t-community{
+        margin-bottom: 2rem;
+    }
+    img[src*="leadly"]{
+        height: 28px;
+    }
+    img[src*="images/Untitled-4 1"]{
+        outline: none;
+        padding: 5px;
+        border: 0px;
+        height: 28px;
+    }
+    .flex{
+        gap: 4px;
+        margin-block: 0.5rem;
     }
 
 
