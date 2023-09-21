@@ -356,3 +356,19 @@ footer{
     width: 150px;
 }
 }
+
+@media screen and (max-width: 854px) {
+    /* FIFTH CONTAINER */
+    .fifth-container {
+        padding-block: 50px;
+    }
+    .fifth-container h2 {
+        margin-block: 12px 25px;
+    }
+    footer{
+        padding-block: 30px 40px;
+    }
+    .fline{
+        margin-block: 40px 30px;
+    }
+}
