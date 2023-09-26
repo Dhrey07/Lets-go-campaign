@@ -38,6 +38,7 @@ body > section.first > div > header > nav > button{
     color: white;
 }
 h3{
+    text-align: justify;
     font-family: Figtree;
     font-weight: 400;
     font-size: 1.15rem;
