@@ -24,6 +24,34 @@ body > section.first > div > header > nav > button{
     color: white;
 }
 
+/*styling for countdown */
+
+.countdown-container {
+    text-align: center;
+  }
+  
+  #countdown {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  #countdown div {
+    background: #7ECCD7;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  #countdown span {
+    /* display: block; */
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
 
 #navbarSupportedContent > ul > li:nth-child(1) > a > button{
     background: transparent;
@@ -367,4 +395,17 @@ footer{
     .fline{
         margin-block: 40px 30px;
     }
+}
+
+
+@media screen and (max-width: 454px) {
+
+#countdown div {
+    background: #7ECCD7;
+    padding: 4.5px 8px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-bottom: 1.2rem;
+  }
 }
