@@ -17,6 +17,34 @@ body > section.first > div > header > nav > button > span > img{
     width: 16px;
 }
 
+.cdspace{
+    display: flex;
+    margin-bottom: 22px;
+}
+
+
+.downimg{
+    width: 50%;
+}
+
+.subdiv{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subdiv2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cdspace:nth-child(2) > :first-child{
+    width: 100%;
+}
+
 #navbarSupportedContent > ul{
 float: right;
 }
@@ -229,6 +257,21 @@ footer{
     #preloader img{
         height: 20px;
     }
+
+    .downimg{
+        width: 100%;
+        margin-bottom: 3rem;
+    } 
+
+    .cdspace{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 22px;
+    }
+    
+
     h1{
         font-family: Figtree;
         font-weight: 800;
